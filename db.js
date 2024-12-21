@@ -7,7 +7,6 @@
 // Create a Schema for Users
 // backend/db.js
 const mongoose = require('mongoose');
-//vcUEBihrrGWx9p2w
 
 mongoose.connect("mongodb+srv://your-path/myPaytm")
 
