@@ -1,18 +1,15 @@
-//mongodb+srv://anupRaj:anupRaj@cluster0.maqxzmb.mongodb.net/
 
-// backend/db.js
-// const mongoose = require('mongoose');
 
-//connecting to database
 
-// mongoose.connect("mongodb+srv://anupRaj:anupRaj@cluster0.maqxzmb.mongodb.net/myPaytm");
+
+
 
 // Create a Schema for Users
 // backend/db.js
 const mongoose = require('mongoose');
 //vcUEBihrrGWx9p2w
 
-mongoose.connect("mongodb+srv://anups154:vcUEBihrrGWx9p2w@cluster0.55nb3oq.mongodb.net/myPaytm")
+mongoose.connect("mongodb+srv://your-path/myPaytm")
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
